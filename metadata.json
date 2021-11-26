@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "defaultFile": "src/index.js",
+  "environment": "nodejs",
+  "setupCommands": ["npm i"],
+  "compileCommand": "",
+  "tests": [
+    { "itShould": "generate wallet", "command": "node scripts/01_generateWallet.js" },
+    { "itShould": "get wallet balance", "command": "node scripts/02_getWalletBalance.js" },
+    { "itShould": "airdrop 5 sol", "command": "node scripts/03_airDropSol.js" }
+  ],
+  "learnerAccessibleFileList": ["src/*"]
+}
