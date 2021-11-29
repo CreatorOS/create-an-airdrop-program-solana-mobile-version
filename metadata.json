@@ -3,7 +3,7 @@
   "defaultFile": "src/index.js",
   "environment": "solana-node",
   "setupCommands": ["npm i"],
-  "compileCommand": "",
+  "compileCommand": "echo 'No scripts to compile'",
   "tests": [
     { "itShould": "generate wallet", "command": "node scripts/01_generateWallet.js" },
     { "itShould": "get wallet balance", "command": "node scripts/02_getWalletBalance.js" },
